@@ -484,3 +484,4 @@ nnoremap <f8> :delete<cr>
 
 colorscheme papercolor-dark
 nnoremap w :view<cr>
+set number
