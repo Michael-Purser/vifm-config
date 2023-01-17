@@ -482,7 +482,18 @@ nnoremap <f8> :delete<cr>
 "
 " let $VIFM_SERVER_NAME = v:servername
 
+" -----------------------------------------------------------------------------
+" CUSTOMISATIONS
+" -----------------------------------------------------------------------------
+
+" Set colorscheme
 colorscheme papercolor-dark
+
+" Add shortcut for toggling view mode
 nnoremap w :view<cr>
+
+" Add line numbers
 set number
+
+" Set default PDF reader
 filetype *.pdf evince
